@@ -1,25 +1,20 @@
-# Orchestrate Microservices By A Spring Boot Worker
+# Microservices Used By TechGadgetInc.
 
-This project contains a worker that can connect a BPMN service task to whatever you need to.
+This project contains a worker that is used in the Supply Chain Management Process of TechGadgetInc.
+
+Java 17.0 is used for this project but be sure to meet the following criteria :
 
 Requirements:
 
-* Java >= 8
-* Maven
+* Java >= 8.0 
+* Maven installed
 
 How to run:
 
 * Download/clone the code in this folder.
-* You need to set your Camunda cloud client connection details in the file `application.properties`. Simply replace the existing sample values.
 * Run the application:
 
-```
-mvn package exec:java
-```
 
-Now you need to model and deploy a BPMN process that contains a service task of type `orchestrate-something`. Start a new instance of this process instance and you will see the sysout of this worker.
+Now you need deploy the Supply Chain Management BPMN process that contains the service tasks of type `orderProcess_worker` and `arrangeShipment_worker`.
 
-Possible extensions:
-
-- Start the worker application multiple times and you will see that all of them serve some traffic
-- Create a comparable worker in another programming language following one of the [Get Started Guides](https://github.com/camunda-cloud/camunda-cloud-get-started)
+Once the Services are running, you can start the deployed process and the service tasks will be completed automatically based on the code in the `Worker.java` class. 
