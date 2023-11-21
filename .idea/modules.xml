@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/camunda-platform-tutorials-main.iml" filepath="$PROJECT_DIR$/.idea/camunda-platform-tutorials-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orchestrate-microservices/worker-java/part1-spring-boot-worker.iml" filepath="$PROJECT_DIR$/orchestrate-microservices/worker-java/part1-spring-boot-worker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intermediate-ms-orchestration-order-fulfillment/retrieve-payment-worker-java/spring-zeebe-example.iml" filepath="$PROJECT_DIR$/intermediate-ms-orchestration-order-fulfillment/retrieve-payment-worker-java/spring-zeebe-example.iml" />
+    </modules>
+  </component>
+</project>
