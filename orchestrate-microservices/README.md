@@ -11,7 +11,7 @@ Requirements:
 
 How to run:
 
-* Download/clone the code in this folder.
+* Download or clone the code in this folder.
 * Run the application:
 
 
